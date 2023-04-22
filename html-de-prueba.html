@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="handle-form.js" type="module" defer></script>
+    <script src="render-content.js" type="module" defer></script>
+
+    <title>PRUEBA</title>
+  </head>
+  <body>
+    <header>
+      <h1>Esto es un archivo de prueba para las logicas del DOM</h1>
+    </header>
+    <main>
+      <hr />
+      <br />
+
+      <form id="selectionForm">
+        <fieldset>
+          <legend>Selección provincia</legend>
+          <label for="selectProvinces">Seleccione la provincia*</label><br />
+          <select name="selectProvince" id="selectProvince">
+            <option value="PONTEVEDRA">Seleccione la provincia</option>
+            <option value="CORUÑA (A)">A Coruña</option>
+            <option value="BARCELONA">Barcelona</option>
+            <option value="GIRONA">Girona</option>
+            <option value="LUGO">Lugo</option>
+            <option value="MADRID">Madrid</option>
+            <option value="PONTEVEDRA">Pontevedra</option>
+          </select>
+        </fieldset>
+
+        <fieldset>
+          <legend>Selección municipio</legend>
+          <label for="cities">Seleccione el municipio</label><br />
+          <select name="selectCity" id="selectCity">
+            <option value="Pontevedra">Seleccione el municipio</option>
+            <option value="Brunete">Brunete</option>
+            <option value="Barcelona">Barcelona</option>
+            <option value="Girona">Girona</option>
+            <option value="Lugo">Lugo</option>
+            <option value="Madrid">Madrid</option>
+            <option value="Pontevedra">Pontevedra</option>
+            <option value="Sanxenxo">Sanxenxo</option>
+            <option value="Grela (A)">Grela (A)</option>
+          </select>
+        </fieldset>
+
+        <fieldset>
+          <label for="postalCode">Búsqueda por Código Postal:</label><br />
+          <input type="text" id="postalCode" name="postalCode" /><br />
+          <button>Buscar</button>
+        </fieldset>
+      </form>
+
+      <div id="prueba"></div>
+      <!-- 
+      <section id="renderData">
+        <h2>brand</h2>
+        <p>address</p>
+        <p>locality</p>
+        <p>postalCode</p>
+        <p>city</p>
+        <p>timetable</p>
+        <p>price95E5gas</p>
+      </section> -->
+
+      <!-- <section> -->
+      <!-- Para poner el abrir en google maps es solo hacer un enlace con ese formato:
+https://www.google.com/maps?q={latitud},{longitud}
+-->
+      <!-- <a
+          href="https://www.google.com/maps?q=39.211417,-1.539167"
+          target="_blank"
+          >Abrir en Google Maps</a
+        >
+        <iframe
+          width="425"
+          height="350"
+          frameborder="0"
+          scrolling="no"
+          marginheight="0"
+          marginwidth="0"
+          src="https://www.openstreetmap.org/export/embed.html?bbox=-8.726835250854494%2C42.2873339735053%2C-8.714067935943605%2C42.29248486083996&amp;layer=mapnik&amp;marker=42.289909469823534%2C-8.720451593399048"
+          style="border: 1px solid black"
+        ></iframe>
+
+        <br /><small
+          ><a
+            href="https://www.openstreetmap.org/?mlat=42.28991&amp;mlon=-8.72045#map=17/42.28991/-8.72045&amp;layers=N"
+            >Ver mapa más grande</a
+          ></small
+        >
+      </section>
+    </main>
+  </body>
+</html> -->
+
+      <!-- Con ese frame de OpenStreetMap se puede mostrar un mapa incrustado con un marcador.
+En "marker" hay que poner el punto exacto y en "bbox" hay que poner uns valores cercanos al punto que queremos centrar. yo pondría igualmente un enlace de "abrir con google maps" -->
+      <!-- </section> -->
+    </main>
+  </body>
+</html>
